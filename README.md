@@ -31,9 +31,9 @@ Prilimnary Analysis folders for _EVUSHELD Exposed_ and _EVUSHELD Unexposed_ coho
 One masterpatientid maybe be linked to multiple pateintid, supposedly as the data comes from multiple hospital facilities and they might have different patientids for the same person. So Loopback has linked all the patientids of the same patient to a unique masterpatientid. And this is the reason our analysis is on MASTERPATIENTID.
 
 # Refresh
+ TO BE ADDED
 
-
-#Exposed Cohort
+# Exposed Cohort
 
 **Total Exposed Population**
 EVUSHELD or its components may be coded as a 'drug_exposure' using _MEDADMINS_ or _BILLINGS_ or _PROCEDURES_ or _MEDFILLS_ or _MEDORDERS_ tables.
