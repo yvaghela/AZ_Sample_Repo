@@ -24,4 +24,4 @@ An Observational Study to Assess the Real-world Effectiveness of EVUSHELD™ (Ti
 
 **Priliminary Analysis**
 
-Prilimnary Analysis folders for _Exposed_ and _Unexposed_ cohorts contains high level  
+Prilimnary Analysis folders for _EVUSHELD Exposed_ and _EVUSHELD Unexposed_ cohorts contains high level analysis like _**EVUSHELD Exposed**_ which contains patients exposed to EVUSHELD (combination product of tixagevimab and cilgavimab) 
