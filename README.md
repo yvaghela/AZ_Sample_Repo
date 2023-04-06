@@ -27,9 +27,11 @@ An Observational Study to Assess the Real-world Effectiveness of EVUSHELD™ (Ti
 Prilimnary Analysis folders for _EVUSHELD Exposed_ and _EVUSHELD Unexposed_ cohorts contains high level analysis like _**EVUSHELD Exposed**_ which contains patients exposed to EVUSHELD (combination product of tixagevimab and cilgavimab) 
 
 
+
+
 #Exposed Cohort
 ###Total Exposed Population
-EVUSHELD or its components may be coded as a 'drug_exposure' using MEDADMINS or BILLINGS or PROCEDURES or MEDFILLS or MEDORDERS tables. Within N3C, as of Release-v105-2023-01-05, EVUSHELD only appears as a drug_exposure [link to workbook demonstrating this]. EVUSHELD doesn't appear at all within the CMS extract available as of Release-v104-2022-12-15.
+EVUSHELD or its components may be coded as a 'drug_exposure' using _MEDADMINS_ or _BILLINGS_ or _PROCEDURES_ or _MEDFILLS_ or _MEDORDERS_ tables.
 
 N3C drug_exposure start date may not correspond to visit date and can be years in the past or future. Intersecting the provided visit_occurrence_id with the visit_occurrence table provides a more reliable estimate of the encounter date.
 
