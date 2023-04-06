@@ -26,11 +26,15 @@ An Observational Study to Assess the Real-world Effectiveness of EVUSHELD™ (Ti
 
 Prilimnary Analysis folders for _EVUSHELD Exposed_ and _EVUSHELD Unexposed_ cohorts contains high level analysis like _**EVUSHELD Exposed**_ which contains patients exposed to EVUSHELD (combination product of tixagevimab and cilgavimab) 
 
+## MasterpatientID & PatientID use
 
+One masterpatientid maybe be linked to multiple pateintid, supposedly as the data comes from multiple hospital facilities and they might have different patientids for the same person. So Loopback has linked all the patientids of the same patient to a unique masterpatientid. And this is the reason our analysis is on MASTERPATIENTID.
+
+## Refresh
 
 
 #Exposed Cohort
-###Total Exposed Population
+**Total Exposed Population**
 EVUSHELD or its components may be coded as a 'drug_exposure' using _MEDADMINS_ or _BILLINGS_ or _PROCEDURES_ or _MEDFILLS_ or _MEDORDERS_ tables.
 
 N3C drug_exposure start date may not correspond to visit date and can be years in the past or future. Intersecting the provided visit_occurrence_id with the visit_occurrence table provides a more reliable estimate of the encounter date.
