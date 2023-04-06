@@ -35,14 +35,14 @@ One masterpatientid maybe be linked to multiple pateintid, supposedly as the dat
 
 # Exposed Cohort
 
-**Total Exposed Population**
+##Total Exposed Population
 EVUSHELD or its components may be coded as a 'drug_exposure' using _MEDADMINS_ or _BILLINGS_ or _PROCEDURES_ or _MEDFILLS_ or _MEDORDERS_ tables.
 
-N3C drug_exposure start date may not correspond to visit date and can be years in the past or future. Intersecting the provided visit_occurrence_id with the visit_occurrence table provides a more reliable estimate of the encounter date.
+Drug_exposure start date (medadminstartdate) may not correspond to encounter date and can be years in the past or future.
 
-The drug_exposure may be a prescription, an administration, or unspecified - in this analysis, earliest encounter date is used as the exposure index date in all cases.
+The Evusheld 'drug_exposure' may be a prescription, an administration, or unspecified - in this analysis, earliest drug_exposure date is used as the exposure 'index_date' in all cases.
 
-Eligible Exposed Population
-12 and over, based on person table DOB and index date
-EUA PrEP eligibility condition observed in a 24 month period prior to index date
-Non-zero visits in the 12 months prior to index date, with visit not tied to eligibility condition
+##Eligible Exposed Population
+*12 and over, based on person table DOB and index date
+*EUA PrEP eligibility condition observed in a 24 month period prior to index date
+*Non-zero visits in the 12 months prior to index date, with visit not tied to eligibility condition
