@@ -24,4 +24,4 @@ An Observational Study to Assess the Real-world Effectiveness of EVUSHELD™ (Ti
 
 **Priliminary Analysis**
 
-Prilimnary Analysis folders for <sub>Exposed</sub> and Unexposed cohorts contains high level  
+Prilimnary Analysis folders for _Exposed_ and _Unexposed_ cohorts contains high level  
