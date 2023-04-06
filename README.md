@@ -31,7 +31,7 @@ Prilimnary Analysis folders for _EVUSHELD Exposed_ and _EVUSHELD Unexposed_ coho
 One masterpatientid maybe be linked to multiple pateintid, supposedly as the data comes from multiple hospital facilities and they might have different patientids for the same person. So Loopback has linked all the patientids of the same patient to a unique masterpatientid. And this is the reason our analysis is on MASTERPATIENTID.
 
 # Refresh
- TO BE ADDED
+ For the analysis IsActive = 1 and IsDeleted = 0 filter is applied to all the tables used to get the latest non deleted record for a particular patient.
 
 # Exposed Cohort
 
