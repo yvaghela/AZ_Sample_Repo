@@ -31,14 +31,14 @@ For the analysis IsActive = 1 and IsDeleted = 0 filter is applied to all the tab
 ## Directories in Repository
 Repositry contains the following 8 directories:
 
-1. Preliminary Analysis - Exposed Cohort
-2.  Outcome Analysis -Exposed Cohort
-3.  Comorbidity - Analysis Exposed Cohort
-4.  Comorbidity Analysis - Clinical Discretion
-5.  Preliminary Analysis - Unexposed Cohort
-6.  Outcome Analysis - Unexposed Cohort
-7.  Comorbidity Analysis - Unexposed Cohort
-8.  Comorbidity Analysis - Clinical Discretion
+1. Preliminary Analysis - Exposed Cohort: Premiliminary analysis like total evusheld exposed patients and exposures, patients falling under AZ defined inclusion                                                 criteria, demographics, total immunocompromised patients etc. 
+2.  Outcome Analysis -Exposed Cohort: Clinical outcomes analysis of evusheld exposed patients.
+3.  Comorbidity - Analysis Exposed Cohort: Comorbidities and CCI score analysis of exposed patients.
+4.  Comorbidity Analysis - Clinical Discretion: Comorbidities, demographics and CCI score analysis of patients following under clinical discretion.
+5.  Preliminary Analysis - Unexposed Cohort: Premiliminary analysis like total unexposed patients, patients falling under AZ defined inclusion                                                                      criteria, demographics, total immunocompromised patients etc.
+6.  Outcome Analysis - Unexposed Cohort: Clinical outcomes analysis of the unexposed cohort.
+7.  Comorbidity Analysis - Unexposed Cohort: Comorbidities and CCI score analysis of unexposed patients.
+8.  Additional Analysis - Additional analysis like Lag analysis and Clinical notes analysis
 
 
 # Exposed Cohort
