@@ -2,7 +2,7 @@
 
 An Observational Study to Assess the Real-world Effectiveness of EVUSHELD™ (Tixagevimab/Cilgavimab) as Pre-exposure Prophylaxis Against COVID-19 Among EVUSHELD-eligible Populations in the United States Department of Defense Healthcare System. 
 
-# Study Objective and Hypothesis
+## Study Objective and Hypothesis
 
 **Primary Objectives**
 
@@ -20,17 +20,12 @@ An Observational Study to Assess the Real-world Effectiveness of EVUSHELD™ (Ti
      (e) COVID-19-related mortality
      (f) Levels of COVID-19 disease severity
 
-# Contains in Repositories
 
-**Priliminary Analysis**
-
-Prilimnary Analysis folders for _EVUSHELD Exposed_ and _EVUSHELD Unexposed_ cohorts contains high level analysis like _**EVUSHELD Exposed**_ which contains patients exposed to EVUSHELD (combination product of tixagevimab and cilgavimab) 
-
-# MasterpatientID & PatientID use
+## MasterpatientID vs PatientID
 
 One masterpatientid maybe be linked to multiple pateintid, supposedly as the data comes from multiple hospital facilities and they might have different patientids for the same person. So Loopback has linked all the patientids of the same patient to a unique masterpatientid. And this is the reason our analysis is on MASTERPATIENTID.
 
-# Refresh
+## Refresh
  For the analysis IsActive = 1 and IsDeleted = 0 filter is applied to all the tables used to get the latest non deleted record for a particular patient.
 
 # Exposed Cohort
