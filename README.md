@@ -26,7 +26,20 @@ An Observational Study to Assess the Real-world Effectiveness of EVUSHELD™ (Ti
 One masterpatientid maybe be linked to multiple pateintid, supposedly as the data comes from multiple hospital facilities and they might have different patientids for the same person. So Loopback has linked all the patientids of the same patient to a unique masterpatientid. And this is the reason our analysis is on MASTERPATIENTID.
 
 ## Refresh
- For the analysis IsActive = 1 and IsDeleted = 0 filter is applied to all the tables used to get the latest non deleted record for a particular patient.
+For the analysis IsActive = 1 and IsDeleted = 0 filter is applied to all the tables used to get the latest non deleted record for a particular patient.
+ 
+## Directories in Repository
+Repositry contains the following 8 directories:
+
+1. Preliminary Analysis - Exposed Cohort
+2.  Outcome Analysis -Exposed Cohort
+3.  Comorbidity - Analysis Exposed Cohort
+4.  Comorbidity Analysis - Clinical Discretion
+5.  Preliminary Analysis - Unexposed Cohort
+6.  Outcome Analysis - Unexposed Cohort
+7.  Comorbidity Analysis - Unexposed Cohort
+8.  Comorbidity Analysis - Clinical Discretion
+
 
 # Exposed Cohort
 
