@@ -19,6 +19,10 @@ An Observational Study to Assess the Real-world Effectiveness of EVUSHELD™ (Ti
      (d) COVID-19 intensive care unit (ICU) admission
      (e) COVID-19-related mortality
      (f) Levels of COVID-19 disease severity
+   
+## Study Design
+
+Total EVUSHELD exposed population was found by finding patients exposed to Evusheld with valid drug exposure date First exvusheld dose exposure for every patient is taken as the indexdate. Amongst the exposed population, patient with age >=12 years and having a medical encounter 12 months prior to the indexdate are considered as the eligible population for the study. This group is taken as the base cohort for further analysis. Amongst the eligible population, patients count for different immunocompromised conditions, medical outcomes and clinical discretion is found.
 
 
 ## MasterpatientID vs PatientID
@@ -43,9 +47,12 @@ Repositry contains the following 8 directories:
 
 ## Preliminary Analysis
 
-EVUSHELD or its components may be coded as a 'drug_exposure' using _MEDADMINS_ or _BILLINGS_ or _PROCEDURES_ or _MEDFILLS_ or _MEDORDERS_ tables. Drug_exposure start date (medadminstartdate) may not correspond to encounter date and can be years in the past or future. The Evusheld 'drug_exposure' may be a prescription, an administration, or unspecified - in this analysis, earliest drug_exposure date is used as the exposure 'index_date' in all cases.
+For finding exposed population: EVUSHELD or its components may be coded as a 'drug_exposure' using _MEDADMINS_ or _BILLINGS_ or _PROCEDURES_ or _MEDFILLS_ or _MEDORDERS_ tables. Drug_exposure start date (medadminstartdate) may not correspond to encounter date and can be years in the past or future. The Evusheld 'drug_exposure' may be a prescription, an administration, or unspecified - in this analysis, earliest drug_exposure date is used as the exposure 'index_date' in all cases.
 
 **Eligible Exposed Population**
 * 12 and over, based on person table DOB and index date
-* EUA PrEP eligibility condition observed in a 24 month period prior to index date
 * Non-zero visits in the 12 months prior to index date, with visit not tied to eligibility condition
+
+The eligible evusheld exposed population patients are tested against various AZ immunocompromised conditions. 'ICD codes' and 'concept names' are used to determine IC conditions.
+
+
