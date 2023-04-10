@@ -61,4 +61,4 @@ Clinical outcomes for the eligible exposed population is found outcomes like all
 
 ## Clinical Discretion
 
-
+Evusheld exposed patients that don't fall under any or both of the two eligible criteria make the clinical discretion group.
