@@ -58,13 +58,13 @@ Eligible Exposed Population:
 The `eligible evusheld exposed population` patients are tested against various parent and sub cohort immunocompromised conditions provided AZ. ICD codes and concept names are used to determine IC conditions.
 
 ### Refresh - Exposed Demographics
-Demographics analysis like gender, ethnicity, race & age distribution for the `eligible evusheld exposed population` patients.
+Demographics analysis like `gender`, `ethnicity`, `race` & `age` distribution for the eligible evusheld exposed population patients.
 
 ## Outcome Analysis - Exposed Cohort
 
 ### Refresh - Exposed Outcomes
 
-Clinical outcomes for the eligible exposed population is found outcomes like all cause hospitalization, covid hospitalization, mortality etc. ICD and LOINC codes are used to determine `covid diagnosis` from diagnosis and labresults table respectively. The eligible population cohort and encounter table intersection is done using `encounterid` to get covid diagnosis corresponding to a particular encounter only. Covid diagnosis date range for an encounter is taken as >=-14 till <= encounterdate as a patient can be diagnosed with covid before getting hospitalized.
+Clinical outcomes for the eligible exposed population is found outcomes like all cause hospitalization, covid hospitalization, mortality etc. ICD and LOINC codes are used to determine `covid diagnosis` from diagnosis and labresults table respectively. The eligible population cohort and encounter table intersection is done using `encounterid` to get covid diagnosis corresponding to a particular encounter only. Covid diagnosis date range for an encounter is taken as `>=-14 till <= encounterdate` as a patient can be diagnosed with covid before getting hospitalized.
 
 ## Comorbidity Analysis - Exposed Cohort
 
