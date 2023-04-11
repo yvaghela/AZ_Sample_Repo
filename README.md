@@ -1,4 +1,4 @@
-# AZ Evusheld Project (US)
+# Retrospective Observational Study of EVUSHELD Utilization in Immunocompromised Patients
 
 An Observational Study to Assess the Real-world Effectiveness of EVUSHELD™ (Tixagevimab/Cilgavimab) as Pre-exposure Prophylaxis Against COVID-19 Among EVUSHELD-eligible Populations in the United States Department of Defense Healthcare System. 
 
@@ -20,9 +20,10 @@ An Observational Study to Assess the Real-world Effectiveness of EVUSHELD™ (Ti
      (e) COVID-19-related mortality
      (f) Levels of COVID-19 disease severity
    
-## Study Design
+## Study Population
 
-Total EVUSHELD exposed population was found by finding patients exposed to Evusheld with valid drug exposure date First exvusheld dose exposure for every patient is taken as the indexdate. Amongst the exposed population, patient with age >=12 years and having a medical encounter 12 months prior to the indexdate are considered as the eligible population for the study. This group is taken as the base cohort for further analysis. Amongst the eligible population, patients count for different immunocompromised conditions, clinical outcomes and clinical discretion is found.
+The exposure of interest will be defined as administration of EVUSHELD, and the date of initial administration will be deemed the index date; those unexposed will be defined as individuals with similar conditions/indications of immune compromise as the exposed, but who have not been administered EVUSHELD.
+The index date for the unexposed cohort is the date of EVUSHELD authorisation in the United States (24th Feb 2022).
 
 
 ## MasterpatientID vs PatientID
