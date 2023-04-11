@@ -100,7 +100,7 @@ Eligible criteria:
 * 12 and over, based on person table DOB and index date
 * Non-zero visits in the 12 months prior to index date, with visit not tied to eligibility condition
 
-### Refresh - Total IC & IC Sub Cohorts
+### Refresh - Unexposed Total IC & IC Sub Cohorts
 The patients satisfying the eligible criteria are tested against various parent and sub cohort immunocompromised conditions provided AZ. ICD codes and concept names are used to determine IC conditions. `Total IC cohort` was defined by doing a `union` of the 8 IC parent conditions.
 
 `Total IC cohort` is considered the `base cohort` for further analysis.
@@ -108,7 +108,7 @@ The patients satisfying the eligible criteria are tested against various parent 
 
 ## Outcome Analysis - Exposed Cohort
 
-### Refresh - Exposed Outcomes
+### Refresh - Unexposed Outcomes
 
 Clinical outcomes for the Total IC cohort is found outcomes like all cause hospitalization, covid hospitalization, mortality etc. ICD and LOINC codes are used to determine `covid diagnosis` from diagnosis and labresults table respectively. The eligible population cohort and encounter table intersection is done using `encounterid` to get covid diagnosis corresponding to a particular encounter only. Covid diagnosis date range for an encounter is taken as `>=-14 till <= encounterdate` as a patient can be diagnosed with covid before getting hospitalized.
 
