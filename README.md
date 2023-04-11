@@ -50,7 +50,7 @@ Repositry contains the following 8 directories:
 ### Refresh - EVUSHELD Exposed Cohort
 For finding exposed population: EVUSHELD or its components may be coded as a `drug_exposure` using `MEDADMINS` or `BILLINGS` or `PROCEDURES` or `MEDFILLS` or `MEDORDERS` tables. NDC codes and concept names are used to identify evusheld exposures. Drug_exposure start date (medadminstartdate) may not correspond to encounter date and can be years in the past or future. The Evusheld `drug_exposure` may be a prescription, an administration, or unspecified - in this analysis, earliest drug_exposure date is used as the exposure `index_date` in all cases.
 
-**Eligible Exposed Population**
+Eligible Exposed Population:
 * 12 and over, based on person table DOB and index date
 * Non-zero visits in the 12 months prior to index date, with visit not tied to eligibility condition
 
