@@ -1,28 +1,14 @@
-# AZ Evusheld Project (US)
+# Retrospective Observational Study of EVUSHELD Utilization in Immunocompromised Patients
 
 An Observational Study to Assess the Real-world Effectiveness of EVUSHELD™ (Tixagevimab/Cilgavimab) as Pre-exposure Prophylaxis Against COVID-19 Among EVUSHELD-eligible Populations in the United States Department of Defense Healthcare System. 
 
-## Study Objective and Hypothesis
-
-### Primary Objectives
-
-1. To assess the effectiveness of EVUSHELD as PrEP against COVID-19 hospitalizations up to 6 months following its initial administration
-2. To compare all-cause mortality up to 6 months following the initial dose of EVUSHELD, among patients who did and did not receive EVUSHELD as PrEP
-
-### Secondary Objectives
-
-1. To assess the effectiveness of EVUSHELD as PrEP against a composite outcome of COVID-19 hospitalizations/all-cause mortality up to 6 months following its initial administration
-2. To assess the effectiveness of EVUSHELD as PrEP against outcomes listed below up to 6 months following its initial administration:
-     (a) Documented SARS-CoV-2 infection
-     (b) Medically attended COVID-19
-     (c) Medically attended acute-care COVID-19
-     (d) COVID-19 intensive care unit (ICU) admission
-     (e) COVID-19-related mortality
-     (f) Levels of COVID-19 disease severity
+## Study Overview
+The purpose of this study is to describe EVUSHELD patterns of use (e.g. number of patients receiving EVUSHELD as PrEP or treatment, timing of EVUSHELD doses, etc.), the sociodemographic and clinical characteristics of patients who have received and have not received EVUSHELD, and explore the availability and reliability of key variables (i.e. exposures, covariates, and outcome measures) that may be used in the evaluation of EVUSHELD real world effectiveness as part of an observational, retrospective or hybrid study design.
    
-## Study Design
+## Study Population
 
-Total EVUSHELD exposed population was found by finding patients exposed to Evusheld with valid drug exposure date First exvusheld dose exposure for every patient is taken as the indexdate. Amongst the exposed population, patient with age >=12 years and having a medical encounter 12 months prior to the indexdate are considered as the eligible population for the study. This group is taken as the base cohort for further analysis. Amongst the eligible population, patients count for different immunocompromised conditions, clinical outcomes and clinical discretion is found.
+The exposure of interest is defined as administration of EVUSHELD, and the date of initial administration is deemed the index date; those unexposed are defined as individuals with similar conditions/indications of immune compromise as the exposed, but who have not been administered EVUSHELD.
+The index date for the unexposed cohort is the date of EVUSHELD authorisation in the United States (24th Feb 2022).
 
 ## Loopback Data Overview
 
