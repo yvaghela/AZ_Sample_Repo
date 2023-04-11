@@ -45,7 +45,7 @@ Eligible Exposed Population:
 * Non-zero visits in the 12 months prior to index date, with visit not tied to eligibility condition
 
 ### Refresh - Total Immunocompromised & Refresh - IC Sub Cohorts 1&2
-The `eligible evusheld exposed population` patients are tested against various parent and sub cohort immunocompromised conditions provided AZ. ICD codes and concept names are used to determine IC conditions.
+The `eligible evusheld exposed population` patients are tested against various parent and sub cohort immunocompromised conditions provided AZ. ICD codes and concept names are used to determine IC conditions. Cancer, Immunosuppressive & corticosteroid therapies are identified using `concept names`. And for HIV/AIDS CD4 cell count is identified using `SOURCELABNAME` from the `LABRESULTS` table.
 
 ### Refresh - Exposed Demographics
 Demographics analysis like `gender`, `ethnicity`, `race` & `age` distribution for the eligible evusheld exposed population patients.
