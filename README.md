@@ -24,7 +24,7 @@ An Observational Study to Assess the Real-world Effectiveness of EVUSHELD™ (Ti
 
 Total EVUSHELD exposed population was found by finding patients exposed to Evusheld with valid drug exposure date First exvusheld dose exposure for every patient is taken as the indexdate. Amongst the exposed population, patient with age >=12 years and having a medical encounter 12 months prior to the indexdate are considered as the eligible population for the study. This group is taken as the base cohort for further analysis. Amongst the eligible population, patients count for different immunocompromised conditions, clinical outcomes and clinical discretion is found.
 
-## Loopback Overview
+## Loopback Data Overview
 
 Loopback addresses data pipeline and preparation needs of the clinical data researcher, serving as a ‘project-ready’ real-world data (RWD) resource for electronic health record (EHR) data. De-duplicated, normalized to a common data model, and enriched with an expanding range of researcher-friendly attributes.
 
