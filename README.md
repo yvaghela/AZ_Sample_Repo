@@ -45,8 +45,9 @@ Repositry contains the following 8 directories:
 8.  Additional Analysis - Additional analysis like Lag analysis and Clinical notes analysis
 
 
-## Preliminary Analysis
+## Preliminary Analysis - Exposed Cohort
 
+### Refresh - EVUSHELD Exposed Cohort
 For finding exposed population: EVUSHELD or its components may be coded as a `drug_exposure` using `MEDADMINS` or `BILLINGS` or `PROCEDURES` or `MEDFILLS` or `MEDORDERS` tables. NDC codes and concept names are used to identify evusheld exposures. Drug_exposure start date (medadminstartdate) may not correspond to encounter date and can be years in the past or future. The Evusheld `drug_exposure` may be a prescription, an administration, or unspecified - in this analysis, earliest drug_exposure date is used as the exposure `index_date` in all cases.
 
 **Eligible Exposed Population**
