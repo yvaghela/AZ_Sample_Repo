@@ -1,6 +1,6 @@
-# Retrospective Observational Study of EVUSHELD Utilization in Immunocompromised Patients
+# Retrospective Observational Study of EVUSHELD Utilization in Immunocompromised (IC) Patients
 
-An Observational Study to Assess the Real-world Effectiveness of EVUSHELD™ (Tixagevimab/Cilgavimab) as Pre-exposure Prophylaxis Against COVID-19 Among EVUSHELD-eligible Populations in the United States Department of Defense Healthcare System. 
+An Observational Study to Assess the Real-world Effectiveness of EVUSHELD™ (Tixagevimab/Cilgavimab) against COVID-19 Among EVUSHELD-eligible Populations (IC) in the United States Department of Defense Healthcare System. 
 
 ## Study Objective and Hypothesis
 
