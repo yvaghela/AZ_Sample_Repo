@@ -87,3 +87,34 @@ Clinical discretion group is analysised for different comorbidities provided by 
 ### Refresh - CCI Clinical Discretion
 
 Patients with Charlson comorbidities amongst clinical discretion group are found to develop CCI scores for these pateints. Charlson Comordibities counts(ICD codes) are also found using the same code. 
+
+
+## Unexposed Cohort
+
+## Preliminary Analysis - Unexposed Cohort
+
+### Refresh - Unexposed Cohort Analysis
+For finding total population `masterpatientid` from the `patients` tables are found. Amongst these pateints eligible unexposed population is as:
+
+Eligible criteria:
+* 12 and over, based on person table DOB and index date
+* Non-zero visits in the 12 months prior to index date, with visit not tied to eligibility condition
+
+### Refresh - Total IC & IC Sub Cohorts
+The patients satisfying the eligible criteria are tested against various parent and sub cohort immunocompromised conditions provided AZ. ICD codes and concept names are used to determine IC conditions. `Total IC cohort` was defined by doing a `union` of the 8 IC parent conditions.
+
+`Total IC cohort` is considered the `base cohort` for further analysis.
+
+
+## Outcome Analysis - Exposed Cohort
+
+### Refresh - Exposed Outcomes
+
+Clinical outcomes for the Total IC cohort is found outcomes like all cause hospitalization, covid hospitalization, mortality etc. ICD and LOINC codes are used to determine `covid diagnosis` from diagnosis and labresults table respectively. The eligible population cohort and encounter table intersection is done using `encounterid` to get covid diagnosis corresponding to a particular encounter only. Covid diagnosis date range for an encounter is taken as `>=-14 till <= encounterdate` as a patient can be diagnosed with covid before getting hospitalized.
+
+## Comorbidity Analysis - Exposed Cohort
+
+### Refresh - Unexposed CCI & Comorbidities
+Total IC cohort is analysised for comorbidities distribution, other than the charlson comorbidities. ICD codes are used to determine comorbidities.
+
+Patients with `Charlson comorbidities` amongst Evusheld exposed Total IC cohort are found to develop CCI scores for these pateints. Charlson Comordibities counts(ICD codes) are also found using the same code. 
