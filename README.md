@@ -1,28 +1,26 @@
 # Retrospective Observational Study of EVUSHELD Utilization in Immunocompromised Patients
-
 An Observational Study to Assess the Real-world Effectiveness of EVUSHELD™ (Tixagevimab/Cilgavimab) as Pre-exposure Prophylaxis Against COVID-19 Among EVUSHELD-eligible Populations in the United States Department of Defense Healthcare System. 
 
 ## Study Overview
 The purpose of this study is to describe EVUSHELD patterns of use (e.g. number of patients receiving EVUSHELD as PrEP or treatment, timing of EVUSHELD doses, etc.), the sociodemographic and clinical characteristics of patients who have received and have not received EVUSHELD, and explore the availability and reliability of key variables (i.e. exposures, covariates, and outcome measures) that may be used in the evaluation of EVUSHELD real world effectiveness as part of an observational, retrospective or hybrid study design.
    
 ## Study Population
-
 The exposure of interest is defined as administration of EVUSHELD, and the date of initial administration is deemed the index date; those unexposed are defined as individuals with similar conditions/indications of immune compromise as the exposed, but who have not been administered EVUSHELD.
 The index date for the unexposed cohort is the date of EVUSHELD authorisation in the United States (24th Feb 2022).
 
 ## Loopback Data Overview
-
 Loopback addresses data pipeline and preparation needs of the clinical data researcher, serving as a ‘project-ready’ real-world data (RWD) resource for electronic health record (EHR) data. De-duplicated, normalized to a common data model, and enriched with an expanding range of researcher-friendly attributes.
 
 ![loopback numbers](https://user-images.githubusercontent.com/129261496/231142282-d98113b4-a824-4bfd-b6ae-4b7c56488546.png)
 
-
-## MasterpatientID vs PatientID
-
-One masterpatientid maybe be linked to multiple pateintid, supposedly as the data comes from multiple hospital facilities and they might have different patientids for the same person. So Loopback has linked all the patientids of the same patient to a unique masterpatientid. And this is the reason our analysis is on MASTERPATIENTID.
+## Lag Analysis
+For Lag Analysis since there was no information on when the record was created in the database we have taken the table creation date as the reference `date/anchor date`. Then Domain Lag is calculated by finding out the difference between the latest event date for a `domain` (Diagnosis, Encounter, Procedures, Lab Results and Medications) and the anchor date.
 
 ## Refresh
-For the analysis IsActive = 1 and IsDeleted = 0 filter is applied to all the tables used to get the latest non deleted record for a particular patient.
+For the analysis `IsActive = 1` and `IsDeleted = 0` filter is applied to all the tables used to get the latest non deleted record for a particular patient.
+
+## MasterpatientID vs PatientID
+One masterpatientid maybe be linked to multiple pateintid, supposedly as the data comes from multiple hospital facilities and they might have different patientids for the same person. So Loopback has linked all the patientids of the same patient to a unique masterpatientid. And this is the reason our analysis is on MASTERPATIENTID.
  
 ## Directories in Repository
 Repositry contains the following 8 directories:
