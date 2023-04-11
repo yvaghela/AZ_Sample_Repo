@@ -1,5 +1,5 @@
 # Retrospective Observational Study of EVUSHELD Utilization in Immunocompromised Patients
-An Observational Study to Assess the Real-world Effectiveness of EVUSHELD™ (Tixagevimab/Cilgavimab) as Pre-exposure Prophylaxis Against COVID-19 Among EVUSHELD-eligible Populations in the United States Department of Defense Healthcare System. 
+An Observational Study to Assess the Real-world Effectiveness of EVUSHELD™ (Tixagevimab/Cilgavimab) against COVID-19 among EVUSHELD-eligible Populations in the United States Department of Defense Healthcare System. 
 
 ## Study Overview
 The purpose of this study is to describe EVUSHELD patterns of use (e.g. number of patients receiving EVUSHELD as PrEP or treatment, timing of EVUSHELD doses, etc.), the sociodemographic and clinical characteristics of patients who have received and have not received EVUSHELD, and explore the availability and reliability of key variables (i.e. exposures, covariates, and outcome measures) that may be used in the evaluation of EVUSHELD real world effectiveness as part of an observational, retrospective or hybrid study design.
@@ -20,7 +20,7 @@ For Lag Analysis since there was no information on when the record was created i
 For the analysis `IsActive = 1` and `IsDeleted = 0` filter is applied to all the tables used to get the latest non deleted record for a particular patient.
 
 ## MasterpatientID vs PatientID
-One masterpatientid maybe be linked to multiple pateintid, supposedly as the data comes from multiple hospital facilities and they might have different patientids for the same person. So Loopback has linked all the patientids of the same patient to a unique masterpatientid. And this is the reason our analysis is on MASTERPATIENTID.
+One masterpatientid maybe be linked to multiple pateintid, as the data may come from multiple hospital facilities and they might have different patientids for the same patient. So Loopback has linked all the patientids of the same patient to a unique masterpatientid. And this is the reason our analysis is on MASTERPATIENTID.
  
 ## Directories in Repository
 Repositry contains the following 8 directories:
@@ -45,7 +45,7 @@ Eligible Exposed Population:
 * Non-zero visits in the 12 months prior to index date, with visit not tied to eligibility condition
 
 ### Refresh - Total Immunocompromised & Refresh - IC Sub Cohorts 1&2
-The `eligible evusheld exposed population` patients are tested against various parent and sub cohort immunocompromised conditions provided AZ. ICD codes and concept names are used to determine IC conditions. Cancer, Immunosuppressive & corticosteroid therapies are identified using `concept names`. And for HIV/AIDS CD4 cell count is identified using `SOURCELABNAME` from the `LABRESULTS` table.
+The `eligible evusheld exposed population` patients are tested against various parent and sub cohort immunocompromised conditions provided by AZ. ICD codes and concept names are used to determine IC conditions. Cancer, Immunosuppressive & corticosteroid therapies are identified using `concept names`. And for HIV/AIDS CD4 cell count is identified using `SOURCELABNAME` from the `LABRESULTS` table.
 
 ### Refresh - Exposed Demographics
 Demographics analysis like `gender`, `ethnicity`, `race` & `age` distribution for the eligible evusheld exposed population patients.
