@@ -2,23 +2,10 @@
 
 An Observational Study to Assess the Real-world Effectiveness of EVUSHELD™ (Tixagevimab/Cilgavimab) against COVID-19 Among EVUSHELD-eligible Populations (IC) in the United States Department of Defense Healthcare System. 
 
-## Study Objective and Hypothesis
+## Study Overview 
 
-### Primary Objectives
+The purpose of this study is to describe EVUSHELD usage patterns (e.g. number of patients receiving EVUSHELD as PrEP or treatment, timing of EVUSHELD doses, etc.), the sociodemographic and clinical characteristics of patients who have received and have not received EVUSHELD, and explore the availability and reliability of key variables (i.e. exposures, covariates, and outcome measures) that may be used in the evaluation of EVUSHELD real world effectiveness as part of an observational, retrospective or hybrid study design.
 
-1. To assess the effectiveness of EVUSHELD as PrEP against COVID-19 hospitalizations up to 6 months following its initial administration
-2. To compare all-cause mortality up to 6 months following the initial dose of EVUSHELD, among patients who did and did not receive EVUSHELD as PrEP
-
-### Secondary Objectives
-
-1. To assess the effectiveness of EVUSHELD as PrEP against a composite outcome of COVID-19 hospitalizations/all-cause mortality up to 6 months following its initial administration
-2. To assess the effectiveness of EVUSHELD as PrEP against outcomes listed below up to 6 months following its initial administration:
-     (a) Documented SARS-CoV-2 infection
-     (b) Medically attended COVID-19
-     (c) Medically attended acute-care COVID-19
-     (d) COVID-19 intensive care unit (ICU) admission
-     (e) COVID-19-related mortality
-     (f) Levels of COVID-19 disease severity
    
 ## Study Population
 
