@@ -89,8 +89,6 @@ Clinical discretion group is analysised for different comorbidities provided by 
 Patients with Charlson comorbidities amongst clinical discretion group are found to develop CCI scores for these pateints. Charlson Comordibities counts(ICD codes) are also found using the same code. 
 
 
-## Unexposed Cohort
-
 ## Preliminary Analysis - Unexposed Cohort
 
 ### Refresh - Unexposed Cohort Analysis
@@ -106,13 +104,13 @@ The patients satisfying the eligible criteria are tested against various parent 
 `Total IC cohort` is considered the `base cohort` for further analysis.
 
 
-## Outcome Analysis - Exposed Cohort
+## Outcome Analysis - Unexposed Cohort
 
 ### Refresh - Unexposed Outcomes
 
 Clinical outcomes for the Total IC cohort is found outcomes like all cause hospitalization, covid hospitalization, mortality etc. ICD and LOINC codes are used to determine `covid diagnosis` from diagnosis and labresults table respectively. The eligible population cohort and encounter table intersection is done using `encounterid` to get covid diagnosis corresponding to a particular encounter only. Covid diagnosis date range for an encounter is taken as `>=-14 till <= encounterdate` as a patient can be diagnosed with covid before getting hospitalized.
 
-## Comorbidity Analysis - Exposed Cohort
+## Comorbidity Analysis - Unexposed Cohort
 
 ### Refresh - Unexposed CCI & Comorbidities
 Total IC cohort is analysised for comorbidities distribution, other than the charlson comorbidities. ICD codes are used to determine comorbidities.
