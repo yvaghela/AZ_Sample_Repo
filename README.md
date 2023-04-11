@@ -4,12 +4,12 @@ An Observational Study to Assess the Real-world Effectiveness of EVUSHELD™ (Ti
 
 ## Study Objective and Hypothesis
 
-**Primary Objectives**
+### Primary Objectives
 
 1. To assess the effectiveness of EVUSHELD as PrEP against COVID-19 hospitalizations up to 6 months following its initial administration
 2. To compare all-cause mortality up to 6 months following the initial dose of EVUSHELD, among patients who did and did not receive EVUSHELD as PrEP
 
-**Secondary Objectives**
+### Secondary Objectives
 
 1. To assess the effectiveness of EVUSHELD as PrEP against a composite outcome of COVID-19 hospitalizations/all-cause mortality up to 6 months following its initial administration
 2. To assess the effectiveness of EVUSHELD as PrEP against outcomes listed below up to 6 months following its initial administration:
@@ -54,12 +54,36 @@ For finding exposed population: EVUSHELD or its components may be coded as a `dr
 * 12 and over, based on person table DOB and index date
 * Non-zero visits in the 12 months prior to index date, with visit not tied to eligibility condition
 
-The `eligible evusheld exposed population` patients are tested against various AZ immunocompromised conditions. ICD codes and concept names are used to determine IC conditions.
+### 1. Refresh - Total Immunocompromised & 2. Refresh - IC Sub Cohorts 1&2
+The `eligible evusheld exposed population` patients are tested against various parent and sub cohort immunocompromised conditions provided AZ. ICD codes and concept names are used to determine IC conditions.
 
-## Clinical Outcomes
+### Refresh - Exposed Demographics
+Demographics analysis like gender, ethnicity, race & age distribution for the `eligible evusheld exposed population` patients.
+
+## Outcome Analysis - Exposed Cohort
+
+### Refresh - Exposed Outcomes
 
 Clinical outcomes for the eligible exposed population is found outcomes like all cause hospitalization, covid hospitalization, mortality etc. ICD and LOINC codes are used to determine `covid diagnosis` from diagnosis and labresults table respectively. The eligible population cohort and encounter table intersection is done using `encounterid` to get covid diagnosis corresponding to a particular encounter only. Covid diagnosis date range for an encounter is taken as >=-14 till <= encounterdate as a patient can be diagnosed with covid before getting hospitalized.
 
-## Clinical Discretion
+## Comorbidity Analysis - Exposed Cohort
 
-Evusheld exposed patients that don't fall under any or both of the two eligible criteria make the clinical discretion group.
+### Refresh - Exposed Other Comorbidities
+Evusheld exposed eligible population is analysised for comorbidities distribution, other than the charlson comorbidities. ICD codes are used to determine comorbidities.
+
+### Refresh - Exposed CCI
+Patients with Charlson comorbidities amongst Evusheld exposed eligible population group are found to develop CCI scores for these pateints. Charlson Comordibities counts(ICD codes) are also found using the same code. 
+
+## Comorbidity Analysis - Clinical Discretion
+
+### Refresh - Clinical Discretion Demographics
+
+Evusheld exposed patients that don't fall under any or both of the two eligible criteria make the clinical discretion group. Demographics analysis like gender and age distribution for patients falling under clinical discretion.
+
+### Refresh - Discretion Other Comorbidities
+
+Clinical discretion group is analysised for different comorbidities provided by AZ. ICD codes were used to find all comorbidities provided by AZ.
+
+### Refresh - CCI Clinical Discretion
+
+Patients with Charlson comorbidities amongst clinical discretion group are found to develop CCI scores for these pateints. Charlson Comordibities counts(ICD codes) are also found using the same code. 
