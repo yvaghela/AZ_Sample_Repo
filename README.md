@@ -54,7 +54,7 @@ Eligible Exposed Population:
 * 12 and over, based on person table DOB and index date
 * Non-zero visits in the 12 months prior to index date, with visit not tied to eligibility condition
 
-### 1. Refresh - Total Immunocompromised & 2. Refresh - IC Sub Cohorts 1&2
+### Refresh - Total Immunocompromised & Refresh - IC Sub Cohorts 1&2
 The `eligible evusheld exposed population` patients are tested against various parent and sub cohort immunocompromised conditions provided AZ. ICD codes and concept names are used to determine IC conditions.
 
 ### Refresh - Exposed Demographics
