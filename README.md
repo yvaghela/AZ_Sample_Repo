@@ -14,7 +14,7 @@ Loopback addresses data pipeline and preparation needs of the clinical data rese
 ![loopback numbers](https://user-images.githubusercontent.com/129261496/231142282-d98113b4-a824-4bfd-b6ae-4b7c56488546.png)
 
 ## Lag Analysis
-For Lag Analysis since there was no information on when the record was created in the database we have taken the table creation date as the reference `date/anchor date`. Then Domain Lag is calculated by finding out the difference between the latest event date for a `domain` (Diagnosis, Encounter, Procedures, Lab Results and Medications) and the anchor date.
+For Lag Analysis since there was no information on when the record was created in the database, we have taken the table creation date as the reference `anchor date`. Then Domain Lag is calculated by finding out the difference between the latest event date for a `domain` (Diagnosis, Encounter, Procedures, Lab Results and Medications) and the anchor date.
 
 ## Refresh
 For the analysis `IsActive = 1` and `IsDeleted = 0` filter is applied to all the tables used to get the latest non deleted record for a particular patient.
